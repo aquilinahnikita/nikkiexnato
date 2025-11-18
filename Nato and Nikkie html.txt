@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 3 Month Anniversary</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #ffe6f0, #ffccdd);
+            color: #4a0033;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            background: #fff0f5;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 800px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #ff66a3;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6em;
+            margin-bottom: 30px;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy 3 Month Anniversary 💖</h1>
+        <p>
+            Happy 3 month anniversary my beautiful girl. These three months have truly been the best of my life and I couldn’t ask for anything better. You’ve been such a good girlfriend and I couldn’t imagine a life better than the one I have with you right now. I know I haven’t been the best girlfriend but I’d choose you every single day of my life princess. I love how we never get bored of each other because once we start talking we just hit that flow state endlessly and it makes me so happy. Thank you for always making time for me during your breaks and for every effort you put in. I don’t take any of it for granted, I really appreciate it. You are the best girlfriend anyone could ever ask for and I honestly can’t imagine life without you. You’re so sweet and funny and you make me so happy. Whenever I’m with you my troubles just disappear and it means so much to me. Today feels so normal for some reason but it’s still really special to me because it reminds me of the day I got to be with such a beautiful girl and when my spark came back. These past three months you’ve taught me how to communicate and not run away from my problems, and because of that we’ve been able to find better solutions to our challenges and stay happy together. You are literally the prettiest girl and I don’t know how you do it but you always bring my spark back instantly and I love that. As we look forward to the better days ahead I just want to tell you that I love you so much and I hope I learn how to love you the right way and make you happy. In difficult times I hope we always find solutions and face our problems together. I love you so much my love and I’m really grateful for all the memories we’ve shared and I can’t wait to make so many more with you.
+        </p>
+
+        <div class="video-container">
+            <!-- STEP: Replace YOUR_FILE_ID_HERE with your Google Drive file ID -->
+            <iframe src="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/preview" 
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+            <1c5f3287oapg3HRSAfwxANDns5orNzV2V>
+        </div>
+    </div>
+</body>
+</html>
